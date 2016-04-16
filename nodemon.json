@@ -1,0 +1,21 @@
+{
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 8000
+  },
+  "execMap": {
+    "js": "babel-node",
+    "jsx": "babel-node"
+  },
+  "ext": "js json jsx handlebars",
+  "ignore": [
+      ".git/",
+      "node_modules/"
+  ],
+  "verbose": false,
+  "watch": [
+    "index.js",
+    "routers",
+    "views"
+  ]
+}
